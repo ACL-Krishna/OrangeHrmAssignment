@@ -1,0 +1,1 @@
+{"name": "test_create_user", "status": "passed", "start": 1783773190338, "stop": 1783773248413, "uuid": "dbf07f95-c14b-4e36-9fb2-1018618eb0e3", "testCaseId": "e6b24a0a2ee1e0b2d1cb69b304f2d90a", "fullName": "tests.test_admin.TestAdmin#test_create_user", "titlePath": ["tests", "test_admin.py", "TestAdmin"]}
