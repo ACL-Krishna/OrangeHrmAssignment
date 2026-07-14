@@ -6,7 +6,6 @@ from testdata.login_data import LoginData
 
 class TestDashboard:
 
-
     def test_dashboard(self,page):
         LoginPage(page).login(LoginData.VALID_USERNAME,LoginData.VALID_PASSWORD)
         dashboard = DashboardPage(page)
