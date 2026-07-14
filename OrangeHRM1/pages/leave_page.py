@@ -18,7 +18,6 @@ class LeavePage:
         self.page.wait_for_timeout(3000)
         self.page.fill(LeaveLocators.FORM_DATE,from_date)
         self.page.wait_for_timeout(3000)
-
         self.page.locator(LeaveLocators.LEAVE_TYPE).click()
         self.page.wait_for_timeout(1000)
         self.page.keyboard.press("ArrowDown")
