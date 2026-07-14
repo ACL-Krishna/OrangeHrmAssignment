@@ -24,11 +24,6 @@ def logged_in_page(page):
     LoginPage(page).login(PimData.USERNAME,PimData.PASSWORD)
     return page
 
-# @pytest.fixture
-# def logger():
-#     return Logger
-
-
 @pytest.hookimpl(hookwrapper=True)
 def pytest_runtest_makereport(item,call):
     outcome= yield
