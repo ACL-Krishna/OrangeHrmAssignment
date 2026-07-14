@@ -16,12 +16,10 @@ class PimPage:
         self.page.click(PimLocators.SAVE_BUTTON)
         self.page.wait_for_selector(PimLocators.SUCCESS_MESSAGE)
 
-
     def search_employee(self,employee):
         self.open_pim()
         self.page.fill(PimLocators.EMPLOYEE_NAME,employee)
         self.page.click(PimLocators.SEARCH_BUTTON)
-        #self.page.wait_for_load_state("networkidle")
         self.page.wait_for_timeout(3000)
 
 
