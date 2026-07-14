@@ -32,19 +32,7 @@ class LeavePage:
         self.open_leave()
         self.page.click(LeaveLocators.APPLY_MENU)
         self.page.wait_for_timeout(2000)
-        # self.page.locator(LeaveLocators.LEAVE_TYPE).click()
-        # self.page.wait_for_timeout(1000)
-        # self.page.keyboard.press("ArrowDown")
-        # self.page.keyboard.press("Enter")
-        # self.page.wait_for_timeout(3000)
-        # self.page.fill(LeaveLocators.FORM_DATE,from_date)
-        # self.page.wait_for_timeout(3000)
-        # # self.page.fill(LeaveLocators.TO_DATE,to_date).clear()
-        # # self.page.wait_for_timeout(3000)
-        # self.page.fill(LeaveLocators.TO_DATE,to_date)
-        # self.page.wait_for_timeout(3000)
-        # self.page.locator(LeaveLocators.APPLY_BUTTON).click()
-        # self.page.wait_for_timeout(3000)
+     
 
 
 
