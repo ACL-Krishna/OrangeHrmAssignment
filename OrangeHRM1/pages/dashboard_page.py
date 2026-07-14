@@ -9,7 +9,6 @@ class DashboardPage:
         self.page.wait_for_selector(DashboardLocators.DASHBOARD)
         assert self.page.locator(DashboardLocators.DASHBOARD).is_visible()
 
-
     def verify_widgets(self):
         self.page.wait_for_selector(DashboardLocators.TIME_AT_WORK)
         assert self.page.locator(DashboardLocators.TIME_AT_WORK).is_visible()
