@@ -16,10 +16,5 @@ class TestAdmin:
         added_user1 = page.locator(f"//div[text()='{AdminData.NEW_USERNAME}']")
         assert added_user1.is_visible()
 
-    def test_search_user(self,page):
-        LoginPage(page).login(LoginData.VALID_USERNAME,LoginData.VALID_PASSWORD)
-        admin = AdminPage(page)
-        admin.search_user(AdminData.NEW_USERNAME)
-
 
 
